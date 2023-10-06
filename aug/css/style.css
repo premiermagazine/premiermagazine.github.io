@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* Style 
 *
 * ======================================================= */
 body {
@@ -671,13 +671,13 @@ figure figcaption {
   }
 }
 .entry.full .entry-img {
-  display: block;
+  display: table-cell;
   vertical-align: top;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  width: 100%;
-  height: 1500px;
+  width: 50%;
+  height: 500px;
 }
 @media screen and (max-width: 768px) {
   .entry.full .entry-img {
