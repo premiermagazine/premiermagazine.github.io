@@ -1,6 +1,6 @@
 $(function () {
     var now = new Date();
-    var nextweek = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000); // 7 days from now
+    var nextweek = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000); // 7 days from now
 
     $('#timer').countdown({
         date: nextweek, // Use the calculated next week date
