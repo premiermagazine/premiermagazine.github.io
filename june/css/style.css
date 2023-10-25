@@ -18,7 +18,7 @@ body {
   color: #666666;
   background: #e6e6e6;
 }
-
++
 #page {
   position: relative;
   overflow-x: hidden;
@@ -595,6 +595,7 @@ figure figcaption {
 }
 #gtco-post-list li.two-third {
   width: 64.6%;
+  background-size: cover;
 }
 @media screen and (max-width: 992px) {
   #gtco-post-list li.two-third {
@@ -621,10 +622,12 @@ figure figcaption {
 }
 #gtco-post-list li.one-half {
   width: 48%;
+  height: 500px;
 }
 @media screen and (max-width: 768px) {
   #gtco-post-list li.one-half {
     width: 100%;
+    height: 500px;
   }
 }
 
@@ -677,7 +680,7 @@ figure figcaption {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  width: 50%;
+  width: 100%;
   height: 500px;
 }
 @media screen and (max-width: 768px) {
