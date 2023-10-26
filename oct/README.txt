@@ -1,4 +1,4 @@
-AUGUST EDITION
----
-Our Version Of August
+Its about Time!
+-----
+Coming Soon Baby!
 
