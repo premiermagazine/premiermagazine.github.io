@@ -262,5 +262,13 @@
 		parallax();
 	});
 
+	document.getElementById('zoomImage').addEventListener('mouseover', function () {
+		this.classList.add('zoomed');
+	  });
+	  
+	  document.getElementById('zoomImage').addEventListener('mouseout', function () {
+		this.classList.remove('zoomed');
+	  });
+	  
 
 }());
